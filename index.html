@@ -207,7 +207,7 @@ function handleControls(){
   radius = Number(radiusSlider.value);
   showVectors = showVec.checked;
   showTrail = showTrails.checked;
-  trailLength = Number(trailLengthSlider.value);
+  trailLength = Number(1 - trailLengthSlider.value);
   histogramBins = Number(binsSlider.value);
 
   countLabel.textContent = particleCount;
